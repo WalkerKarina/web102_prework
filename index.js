@@ -182,6 +182,8 @@ let second = document.createElement("div");
 second.innerHTML = `<p>${secondGame.name}</p>`;
 secondGameContainer.append(second);
 
+// implementing the optional search bar feature
+
 const searchContainer = document.getElementById("searchResults");
 const input = document.querySelector('input[type="search"]');
 

@@ -37,7 +37,8 @@ GIF created with [Kap](https://getkap.co/) for macOS.
 ## Notes
 
 Describe any challenges encountered while building the app.
-I initially struggled with the finding the correct html ids and classes to link to each function. The searchbar was also tricky as I tried to use a array function.
+
+I initially struggled with the finding the correct html ids and classes to link to each function. The searchbar was also tricky as there were multiple steps to integrating it.
 
 ## License
 
