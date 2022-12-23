@@ -181,3 +181,27 @@ firstGameContainer.append(first);
 let second = document.createElement("div");  
 second.innerHTML = `<p>${secondGame.name}</p>`;
 secondGameContainer.append(second);
+
+const searchContainer = document.getElementById("searchResults");
+const input = document.querySelector('input[type="search"]');
+
+input.addEventListener('search', () => {
+    deleteChildElements(searchContainer);
+
+    let result = false;
+    for (let i = 0; i<GAMES_JSON.length; i++){
+        if (GAMES_JSON[i].name === input.value) {
+            result = true;
+        }
+    }
+
+    let searchResultDiv = document.createElement("div");  
+    searchResultDiv.innerHTML = `<p>${result? "available" : "unavailable"}</p>`;
+    searchContainer.append(searchResultDiv);
+});
+
+
+    
+
+
+

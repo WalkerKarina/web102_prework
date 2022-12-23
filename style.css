@@ -19,6 +19,18 @@ body {
     margin-top: -10px;
 }
 
+.header input[type=search] {
+    float: right;
+    padding: px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    font-size: 17px;
+  }
+  
+
 .stats-container {
     display: flex;
     align-items: center;
