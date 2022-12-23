@@ -4,7 +4,7 @@ Submitted by: **Karina Walker**
 
 **SeaGames** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **4** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
@@ -24,7 +24,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/pwduQVG.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [Kap](https://getkap.co/) for macOS.
@@ -37,6 +37,7 @@ GIF created with [Kap](https://getkap.co/) for macOS.
 ## Notes
 
 Describe any challenges encountered while building the app.
+I initially struggled with the finding the correct html ids and classes to link to each function. The searchbar was also tricky as I tried to use a array function.
 
 ## License
 
